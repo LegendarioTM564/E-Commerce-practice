@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+.header-logo{
+    width:70px;
+    height: 70px;
+}
+
+.header-titulo{
+
+    font-size: 50px;
+    text-transform: uppercase;
+
+
+}
+
+.nav-bar{
+
+    background-color: aqua;
+}
+
+.dark-bg{
+
+    background-image: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .9)), url('./Imagenes/bonsai-hero.jpeg');
+
+
+}
+
+.cart-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+} 
+
+.cards{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+
+}
+
+.product-img{
+
+    max-height:300px;
+    
+}
+
